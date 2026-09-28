@@ -1,0 +1,50 @@
+{
+  "name": "trueframe",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "fixtures": "node scripts/make-fixtures.mjs && node scripts/make-photo.mjs",
+    "test:e2e": "node scripts/run-e2e.mjs",
+    "test:conflict": "node scripts/run-conflict-e2e.mjs",
+    "test:report": "node scripts/run-report-e2e.mjs",
+    "test:ai": "node scripts/run-ai-e2e.mjs"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.0",
+    "@xyflow/react": "^12.11.6",
+    "@zxing/browser": "^0.2.1",
+    "@zxing/library": "^0.23.0",
+    "lucide-react": "^0.344.0",
+    "pdfjs-dist": "^6.3.289",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "reactflow": "^11.11.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.6.1",
+    "bwip-js": "^4.11.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "pdf-lib": "^1.17.1",
+    "postcss": "^8.5.28",
+    "puppeteer-core": "^25.12.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^2.1.9"
+  }
+}
