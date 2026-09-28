@@ -1,4 +1,4 @@
-# TrueFrame - Evidence-Based Delivery Verification
+# TrueFrame - Evidence-Based Delivery Verification เทส
 
 A professional demonstration of AI-powered delivery verification for aerospace parts, built for the GIBC V2 Hackathon.
 
